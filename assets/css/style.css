@@ -2424,6 +2424,9 @@ header .navbar-sticky {
   color: var(--primary-color);
 }
 
+.staking-area {
+  background-color: #0672bf;
+}
 .staking-area .card {
   padding: 3rem;
   border-radius: 2rem;
@@ -2461,8 +2464,7 @@ header .navbar-sticky {
   color: var(--white-color) !important;
    */
   background-color: white;
-  color: #0973bb;
-  border: 2px solid #0973bb;
+  border: 1px solid #000000;
   border-radius: 10px;
 }
 
@@ -2474,12 +2476,15 @@ header .navbar-sticky {
 }
 
 .staking-area .card .staking-tabs .tab-link.active {
-  background-color: var(--primary-color);
+  background-color: rgba(3, 120, 175, 0);
+  color: white;
 }
+
 
 .staking-area .card .staking-tab-content .info-box .info-right span {
   font-family: var(--primary-font);
   font-weight: 600;
+  color: white;
 }
 
 .staking-area
@@ -2515,6 +2520,9 @@ header .navbar-sticky {
   z-index: 3;
 }
 
+.info-left {
+  color: white;
+}
 .staking-area .input-area .input-text a {
   position: absolute;
   top: 50%;
@@ -3245,6 +3253,10 @@ a.page-numbers:hover {
   .search-title {
     font-size: 45px;
   }
+  .breadcrumb-area {
+    margin-top: 30px;
+    font-size: 20px;
+  }
 }
 
 /* #endregion Modal */
@@ -3508,6 +3520,16 @@ a.page-numbers:hover {
     -ms-flex-align: start;
     align-items: start;
   }
+
+  .breadcrumb-area {
+    margin-top: 40px;
+  }
+  .m-0 {
+    font-size: 20px;
+  }
+  .textonheader{
+    font-size: 20px;
+  }
   /* #endregion Modal */
 }
 
@@ -3542,3 +3564,4 @@ a.page-numbers:hover {
 .contract-paragraph {
   width: 80%;
 }
+
